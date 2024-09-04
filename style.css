@@ -1,0 +1,486 @@
+/*==================================================   EVERY PAGE   ============================================================*/
+
+section, aside, nav, article, figure, figcaption {
+    display: block;}
+  
+  body {
+    color: #666666;
+    background-color: #2a2a2a;
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+
+  }
+  
+  .nav-wrapper {
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  header {
+    height: 120px;
+    width: 45%;
+    margin: 10px auto;
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ZMwhite {
+    position: absolute;
+    width: 20%;
+    left: -50px;
+    top: -40px;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.auth-buttons {
+    gap: 10px;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.signup-btn, .login-btn {
+    padding: 10px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(56, 56, 56);
+    margin-top: 15px;
+    height: 4px;
+}
+  
+  nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #2dae23;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+  nav li {
+    display: inline;
+    margin-right: 40px;}
+  nav li a {
+    color: #ffffff;}
+  nav li a:hover, nav li a.current {
+    color: #000000;}
+
+  article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+  }
+
+
+
+  .line {
+    border-bottom: 2px solid #ccc;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+  }
+  
+  a {
+    color: #de6581;
+    text-decoration: none;}
+
+  h1, h2, h3 {
+    font-weight: normal;}
+  h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;}
+  h2 {
+    color: #de6581;
+    margin-bottom: 10px;
+    ;}
+  
+
+  .middle {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #ebebeb;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+  .contact-details {
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+ 
+  footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #545454;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+
+/*==================================================  SIGNUP/LOGIN   ============================================================*/
+
+.signup-box{
+    background-color:#ffffff;
+    width:360px;
+    height:680px;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15px;
+    padding: 30px;
+}
+
+/*.login-box{
+    width: 350px;
+    height: 360px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+input[name="SubmitLogin"] {
+  margin: 7px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #49c1a2;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitLogin {
+  margin: 7px;
+  padding: 10px;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #49c1a2;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+}
+*/
+
+button {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #2dae23;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #2dae23;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    border-color:#000;
+    border-radius: 45px;
+    margin-left: 10px;
+}
+
+.submit:hover {
+  background-color: #048920;
+}
+
+button:hover {
+    background-color: #048920;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #2dae23;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.signP {
+    text-align: center;
+    font-size: 15px;
+    margin: 12px;
+}
+
+.signP2 {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.signP2 a{
+    color: #2dae23;
+}
+
+/*==================================================  SOCIALS   ============================================================*/
+
+.insta-img {
+    width: 40px;
+    padding: 15px;
+}
+
+.youtube-img {
+  width: 45px;
+  padding: 16px;
+}
+
+.tiktok-img {
+  width: 50px;
+  padding: 10px;
+}
+
+.morph-img {
+    width: 40px;
+    padding: 15px;
+}
+
+/*==================================================  INDEX PAGE   ============================================================*/
+
+.collection {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+}
+
+.collection .img-collection.active {
+  opacity: 1;
+}
+
+.img-collection {
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 1s ease-in-out;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.img-collection img{
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+@keyframes fade {
+  0%, 25%, 50%, 80% { opacity: 1; }
+  90%, 100% { opacity: 0; }
+}
+
+/*================================================== ORDER PAGE   ============================================================*/
+
+.snake-middle {
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.snakes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.snake-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.snake-desc {
+  background-color: rgb(246, 246, 246);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.snake-desc h3 {
+  text-align: center;
+}
+
+.gender-img {
+  width: auto;
+  height: 25px;
+}
+.snake-image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.snake-info p, .snake-info h4{
+  margin: 0px;
+}
+
+.snake-info {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.snake-title {
+  text-align: center
+}
+
+/*==================================================   GALLERY PAGE   ============================================================*/
+
+.snake-container-gallery {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  width: 80%;
+  margin-left: 103px;
+}
+
+.snake-desc-gallery {
+  flex: 1 1 calc(33.33% - 30px);
+  background-color: rgb(238, 238, 238);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+.snake-desc-gallery img {
+  width: 100%;
+}
+
+.snake-image-gallery{
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+  text-align: center;
+}
+
+/*==================================================   CONTACT   ============================================================*/
+
+.middle-contact {
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+
+/*
+SCREEN FITMENT MOBILE
+*/
+
+@media (max-width: 600px) {
+  .collection {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/* For tablets and small desktops */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .collection {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* For desktops and large displays */
+@media (min-width: 1201px) and (max-width: 1920px) {
+  .collection {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+/* For ultra-wide screens and 4K displays */
+@media (min-width: 1921px) {
+  .collection {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}

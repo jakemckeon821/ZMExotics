@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZM Exotics</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="signup-box">
+        <a href = "index.html">
+            <button class="home-button">Home</button>
+        </a>
+        <h2>Sign Up</h2>
+        <h4>Stay connected with ZM Exotics!</h4>
+        <form action="signUp.php" method="post" id="signup">
+            <label>First Name</label>
+            <input type="text" placeholder="" id="firstName" name="firstName" required>
+            <label>Last Name</label>
+            <input type="text" placeholder="" id="lastName" name="lastName" required>
+            <label>Email</label>
+            <input type="email" placeholder="" id="email" name="email" required>
+            <label>Password</label>
+            <input type="password" placeholder="" id="password" name="password" required>
+            <label>Confirm Password</label>
+            <input type="password" placeholder="" id="confirmPassword" name="confirmPassword" required>
+            <label>Phone Number</label>
+            <input type="phoneNumber" placeholder="" id="phoneNumber" name="phoneNumber"required>
+            <input type="submit"class="submit" name="SubmitSignUp" value="Sign Up">
+        </form>
+        <p class="signP"> Sign up to receive email updates with exclusive offers! </p>
+            <!--By clicking the Sign Up button, you agree to our <br>
+        <a href="#">Terms and Conditions</a> and <a href="#">Policy and Privacy</a>
+        </p>
+        <p class="signP2">Already have an account? <a href="login.html">Login Here</a>
+        </p>
+    </div>
+-->
+    <div id="popup" style="display:none; position:fixed; top:20%; left:50%; transform:translate(-50%, -50%);
+     padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:5px;">
+        <p id="popupMessage"></p>
+        <button onclick="document.getElementById('popup').style.display='none'">Close</button>
+    </div>
+    <script src="signup.js"></script>
+</body>
